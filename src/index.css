@@ -1,13 +1,35 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: media;
+  src: url(../public/mediasans-bolditalic-TRIAL-BF63c7546b5d1a5.otf);
+}
+@font-face {
+  font-family: kaman;
+  src: url(../public/Mj_Kaman\ Regular.ttf);
+}
+body {
+  background-color: #eeebe4;
+  font-family: media;
+}
+.text-wrapper {
+  background: linear-gradient(
+    to bottom,
+    rgba(27, 27, 27, 1) 0%,
+    rgba(27, 27, 27, 1) 25%,
+    rgba(27, 27, 27, 0) 37.5%,
+    rgba(27, 27, 27, 0) 62.5%,
+    rgba(27, 27, 27, 1) 75%,
+    rgba(27, 27, 27, 1) 100%
+  );
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.text-welcome {
+  font-family: kaman;
 }
