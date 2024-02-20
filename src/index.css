@@ -15,10 +15,10 @@
   src: url(../public/Mj_Kaman\ Regular.ttf);
 }
 body {
-  background-color: #eeebe4;
+  background-color: #ffffff;
   font-family: media;
 }
-.text-wrapper {
+/* .text-wrapper {
   background: linear-gradient(
     to bottom,
     rgba(27, 27, 27, 1) 0%,
@@ -28,8 +28,19 @@ body {
     rgba(27, 27, 27, 1) 75%,
     rgba(27, 27, 27, 1) 100%
   );
-}
+} */
 
 .text-welcome {
   font-family: kaman;
+}
+.text.color {
+  color: red;
+}
+.slide {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: #000;
 }

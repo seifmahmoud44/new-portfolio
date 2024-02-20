@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {},
     colors: {
-      textDark: "#1B1B1B",
-      over: "#d4b36c",
+      textDark: "#1b1b1b",
+      textColor: "#fffff",
     },
   },
   plugins: [],
