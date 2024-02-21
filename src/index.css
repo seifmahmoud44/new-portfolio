@@ -36,11 +36,28 @@ body {
 .text.color {
   color: red;
 }
-.slide {
+/* .inner {
+  background-color: black;
+} */
+.inner .page {
+  background-color: white;
+}
+.inner .slide {
   position: fixed;
   top: 0;
   left: 0;
   height: 100vh;
+  width: 100%;
+  background-color: white;
+  z-index: 3;
+}
+
+/* second animation */
+
+.colum-container {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100vw;
-  background: #000;
+  height: 100vh;
 }
